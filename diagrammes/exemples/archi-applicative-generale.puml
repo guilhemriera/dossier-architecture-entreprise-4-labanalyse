@@ -1,0 +1,22 @@
+@startuml archi-applicative-generale
+!include <C4/C4_Container>
+header Diagramme de contexte système \nVue applicative générale \ndu projet Mes Infos En Ligne (MIEL)
+LAYOUT_WITH_LEGEND()
+Person_Ext(entreprise, "Entreprise","[Personne]")
+
+System_Ext(administration, "Système administration B") {
+    System(p1, "Système comptabilité")        
+}
+
+System_Boundary(si, "Système d'information"){
+  System(ma, "MIEL","Permet aux entreprises de récupérer leurs données")
+  System(ref1, "REF_ENTREPRISE","Référentiel personne")
+  System(compo, "Système de composition","Editique transactionnelle"){        
+}
+
+Rel(entreprise, ma, "[1] Demande via formulaire")
+Rel(ma, ref1, "[2.1] Enrichissement avec données internes")
+Rel(ma, p1, "[2.2] Récupération informations comptables")
+Rel(ma, compo, "[3] Création PDF")
+
+@enduml
