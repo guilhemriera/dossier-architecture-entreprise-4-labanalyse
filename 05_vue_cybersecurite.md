@@ -9,8 +9,15 @@ Décrit les règles et cadres de référence (PSSI, ISO 27001, NIST) appliqués 
 ### 5.1.2 Gouvernance sécurité
 Présente les rôles et responsabilités : RSSI, DPO, équipes IT et métiers.
 
+Datacenters situés en France
+
 ### 5.1.3 Conformité et réglementation
 Couvre la conformité aux exigences légales (RGPD, HDS, PCI-DSS) et les audits associés.
+
+RGPD pour les données de santé
+PCI-DSS pour la facturation des rendez-vous et des analyses
+
+Certification HDS nécessaire pour les données de santé
 
 ## 5.2 Sécurité des accès et identités
 Décrit les mécanismes d’authentification, d’autorisation et de gestion du cycle de vie des identités.
