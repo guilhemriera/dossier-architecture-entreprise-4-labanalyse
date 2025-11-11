@@ -7,7 +7,7 @@ Le statut actuel de la décision (par exemple : Proposée, Acceptée, Rejetée, 
 Proposée
 
 ## Contexte
-Un système d'archivage doit être mis en place pour avoir accès aux données inactives à long terme pour des raisons juridiques ou d'analyse des données.
+Un système d'archivage doit être mis en place pour avoir accès aux données inactives à long terme pour des raisons juridiques ou analytiques.
 
 ## Options Envisagées
 1. Stockage sur bande
