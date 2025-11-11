@@ -125,19 +125,70 @@ Identifie les fournisseurs, éditeurs, intégrateurs et hébergeurs. Précise le
 
 Décrit les scénarios clés avec leurs étapes, conditions de déclenchement, flux de données et résultats attendus.
 
+CU1 : Prélèvement à domicile
+- Déclencheur : tournée planifiée
+- Étapes : 
+	- Prélèvement
+	- Saisie sur l'application mobile et contrôle
+	- Synchronisation avec le SIL du site
+- Flux : app mobile <--> SIL du site <--> cloud
+- Résultat : dossier mis à jour, prélèvement tracés
+- Variante mode dégradé : stockage en local + synchronisation automatique au retour de la connexion
 
+CU2 : Prélèvement au laboratoire
+- Déclencheur : arrivée du patient à l'accueil
+- Étapes : 
+	- Accueil
+	- Prélèvement sur place
+	- Saisie et contrôle dans le SIL directement depuis le poste de prélèvement 
+- Flux : poste de prélèvement du site <--> SIL du site <--> cloud
+- Résultat : dossier mis à jour, prélèvement disponibles pour l'analyse
+- Variante mode dégradé : stockage en local puis synchronisation au retour de la connexion; procédures sur papier (puis rattrapage) si les postes de prélèvements ou le SIL sont indisponibles
+
+CU3 : Ordonnancement et exécution sur automate
+- Déclencheur : prélèvement enregistré
+- Étapes : 
+	- Génération des analyses à effectuer
+	- Envoi des ordres
+	- Exécution
+	- Retour des résultas et erreurs éventuelles
+- Flux : SIL <--> Middleware <--> Automate
+- Résultat : résultats bruts exploitables, traçabilité
+
+CU4 : Validation biologique et résultats critiques
+- Déclencheur : résultats disponibles
+- Étapes:
+	- application des règles d'auto-validation
+	- vérification par un biologiste
+	- commentaires
+	- signature électronique
+	- alerte au médecin si résultat critique
+	- mise à disposition des résultats
+- Flux : SIL -> Portail patient et médecin
+- Résultat : résultats finaux disponibles, alertes tracées
+
+CU5: Facturation
+- Déclencheur : compte rendu disponible
+- Étapes : 
+	- vérification des droits du patient
+	- Télétransmission & tiers payant
+- Flux : SIL <--> Organismes payeurs
+- Résultat : Facture émise, recouvrement tracé
 
 ### 2.4.3 Exceptions et règles métier
 
 Liste les cas particuliers, exceptions ou règles spécifiques à appliquer pour garantir la cohérence et la conformité métier.
 
-  
+- Mode dégradé:
+	- entrée dans le mode : déclenchée automatiquement si perte de réseau de plus de 30s
+	- sortie du mode : au retour du réseau; synchronisation sous 10min 
+- Diffusion des résultats: publication sur les portails médecin/patient seulement après signature
+- Résultats critiques : seuils définis par spécialité ; appel au médecin sous 15min 
+- Autovalidation : règles d'autovalidation par examen, validation manuelle obligatoire si anomalie soulevée
 
 ## 2.5 Modèle d’information métier
 
 Formalise les objets manipulés par les processus métiers (clients, produits, commandes...) et leurs relations.
-
-
 
 ### 2.5.1 Relations
 
