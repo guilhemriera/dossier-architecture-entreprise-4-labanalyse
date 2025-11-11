@@ -1,0 +1,40 @@
+@startuml modele-info-metier
+header Modèle d'information métier
+hide circle
+skinparam classAttributeIconSize 0
+hide empty member
+
+class Patient
+class Dossier
+class Prelevement
+class Echantillon
+class Analyse
+class Resultat
+class CompteRendu
+class Biologiste
+class Facture
+class Paiement
+class Médecin
+class Site
+class Automate
+
+
+Patient      "1"     --> "1..*" Dossier        : ouvre
+Médecin "1"          --> "1..*" Dossier        : prescrit
+Dossier      "1"     --> "1..*" Prelevement
+Prelevement  "1"     --> "1..*" Echantillon
+Echantillon  "1"     --> "1..*" Analyse
+Analyse      "1"     --> "1"    Resultat       : produit
+
+Dossier      "1"     --> "1"    CompteRendu    : contient
+CompteRendu  "1"     --> "1"    Biologiste     : signé par
+
+Dossier      "0..1"  --> "1"    Facture
+Facture      "1"     --> "1..*" Paiement
+
+Site         "1"     --> "1..*" Dossier
+Site         "1"     --> "1..*" Prelevement    : effectue 
+
+Automate     "1"     --> "1..*" Analyse
+Worklist     "1"     --> "1..*" Analyse       : ordonne
+@enduml
