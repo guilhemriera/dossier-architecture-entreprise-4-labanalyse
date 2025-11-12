@@ -1,5 +1,22 @@
 # 5. Vue cybersécurité
 
+
+firewall, IDS pour protéger des attaques sur le réseau
+proxy et reverse proxy
+EDR et antivirus sur les hôtes
+
+Durcissement des OS présents dans les laboratoires (par la DSI)
+- réduire la surface d'attaque
+- gestion des droits et des contrôles d'accès
+- moindre privilège
+- isolation des VM et des processus
+- surveillance et journaux (SIEM)
+- appliquer les correctifs de sécurité
+
+Pour le cloud
+- SecNumCloud (surcoût de 15%)
+- HDS
+
 ## 5.1 Principes de sécurité
 Expose les principes directeurs garantissant la protection du SI : défense en profondeur, moindre privilège, résilience et conformité réglementaire.
 
