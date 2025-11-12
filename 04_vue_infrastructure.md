@@ -32,9 +32,9 @@ Liste les principaux éléments techniques qui supportent le fonctionnement appl
 ### 4.2.1 Serveurs et virtualisation
 Décrit les types de serveurs, hyperviseurs, clusters et pools de ressources utilisés.
 
-Le cloud privé utilisera une architecture hyperconvergée pour faciliter la gestion des équipements. En effet, utiliser une architecture traditionnelle nécessiterait des compétences techniques poussées pour choisir les meilleurs équipements et pour les confgurer, qui dépassent les capacités de la DSI. Une architecture convergée est plus simple mais représente des coûts initiaux très élevés.
+Le cloud privé utilisera une architecture hyperconvergée pour faciliter la gestion des équipements. En effet, utiliser une architecture traditionnelle nécessiterait des compétences techniques poussées pour choisir les meilleurs équipements et pour les configurer, qui dépassent les capacités de la DSI. Une architecture convergée est plus simple mais représente des coûts initiaux très élevés.
 
-Pour éviter une sous-utilisation des ressources, les systèmes d'exploitation seront déployés avec une infrastucture virtualisée. La conteneurisation peut rapidement devenir compliquée.
+Pour éviter une sous-utilisation des ressources, les systèmes d'exploitation seront déployés avec une infrastructure virtualisée. La conteneurisation peut rapidement devenir compliquée.
 
 ### 4.2.2 Stockage et sauvegarde
 Présente les solutions de stockage (SAN, NAS, objet), les stratégies de sauvegarde, restauration et archivage.
