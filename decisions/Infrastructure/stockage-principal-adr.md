@@ -11,18 +11,18 @@ Le système d'information doit pouvoir stocker les données patient, les prescri
 
 ## Options Envisagées
 
-1. SAN pour tous les laboratoires et pour le cloud privé
+1. SAN pour les laboratoires
 	- Latence très faible pour l'accès aux données 
 	- Nécessite un CAPEX très élevé
-2. DAS pour les laboratoires et SAN pour le cloud privé
-	- Le DAS dans les laboratoires permet de garder de bonnes performances 
-3. DAS pour les laboratoires et Stockage objet pour le cloud privé
+2. DAS pour les laboratoires 
+	- Permet de garder de bonnes performances 
+	- Scalabilité limitée
+3. Stockage objet 
 	- Le stockage objet est plus simple à mettre en place
-	- Performances très faibles (de l'ordre de la milliseconde)
+	- Performances très faibles (de l'ordre de 10-100 millisecondes)
 
 ## Décision
-Nous avons choisi d'utiliser du DAS pour les laboratoires et un SAN pour le cloud privé. En effet, avoir du SAN pour tous les laboratoires résulterait en un CAPEX très élevé. Le stockage objet n'est pas acceptable car la latence est critique pour notre système. Cette solution permet un bon compromis entre performance et coût.
-
+Nous avons choisi d'utiliser du DAS pour les laboratoires. En effet, avoir du SAN pour tous les laboratoires résulterait en un CAPEX très élevé. Le stockage objet n'est pas acceptable car la latence est critique pour notre système. Cette solution permet un bon compromis entre performance et coût.
 
 ## Conséquences
 
