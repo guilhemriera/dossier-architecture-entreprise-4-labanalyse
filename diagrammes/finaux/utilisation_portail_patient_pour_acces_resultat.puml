@@ -1,0 +1,37 @@
+@startuml
+actor Patient
+
+participant "Navigateur" as Browser
+participant "Portail Patient" as Portail
+participant "SIL - Service résultats" as ServiceRes
+database "SIL - Référentiel résultats" as Repo
+
+' 1. Connexion du patient
+Patient -> Browser : Saisir identifiants (login, mot de passe)
+Browser -> Portail : POST /authentifierPatient(login, motDePasse)
+Portail -> ServiceRes : vérifierIdentifiants(login, motDePasse)
+ServiceRes -> Repo : SELECT patient WHERE login = ...
+Repo --> ServiceRes : patientValide / patientInvalide
+
+alt Patient valide
+    ServiceRes --> Portail : authOK(tokenSession)
+    Portail --> Browser : 200 OK (tokenSession)
+    Browser -> Patient : Afficher espace patient
+else Patient invalide
+    ServiceRes --> Portail : authErreur
+    Portail --> Browser : 401 Unauthorized
+    Browser -> Patient : Message d'erreur d'authentification
+end
+
+== Consultation des résultats ==
+
+Patient -> Browser : Demander consultation des résultats
+Browser -> Portail : GET /resultats?patientId=... (tokenSession)
+Portail -> ServiceRes : listerResultats(patientId)
+ServiceRes -> Repo : SELECT resultats WHERE patientId=... AND statut='VALIDÉ'
+Repo --> ServiceRes : listeRésultats
+ServiceRes --> Portail : listeRésultatsFiltrés
+Portail --> Browser : 200 OK (JSON listeRésultatsFiltrés)
+Browser -> Patient : Afficher les résultats
+
+@enduml

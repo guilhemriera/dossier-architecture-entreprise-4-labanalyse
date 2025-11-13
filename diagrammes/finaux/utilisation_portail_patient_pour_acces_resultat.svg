@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="824px" preserveAspectRatio="none" style="width:1403px;height:824px;background:#FFFFFF;" version="1.1" viewBox="0 0 1403 824" width="1403px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="206.7344" style="stroke:#000000;stroke-width:1.5;" width="981" x="10" y="243.9609"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="47" x2="47" y1="81.2969" y2="743.8906"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="319.5" x2="319.5" y1="81.2969" y2="743.8906"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="634" x2="634" y1="81.2969" y2="743.8906"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="901" x2="901" y1="81.2969" y2="743.8906"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1302.5" x2="1302.5" y1="81.2969" y2="743.8906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="20" y="77.9951">Patient</text><ellipse cx="47" cy="13.5" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M47,21.5 L47,48.5 M34,29.5 L60,29.5 M47,48.5 L34,63.5 M47,48.5 L60,63.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="20" y="755.8857">Patient</text><ellipse cx="47" cy="767.6875" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M47,775.6875 L47,802.6875 M34,783.6875 L60,783.6875 M47,802.6875 L34,817.6875 M47,802.6875 L60,817.6875 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="87" x="276.5" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="283.5" y="69.9951">Navigateur</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="87" x="276.5" y="742.8906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="283.5" y="762.8857">Navigateur</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="108" x="580" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="587" y="69.9951">Portail Patient</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="108" x="580" y="742.8906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="587" y="762.8857">Portail Patient</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="160" x="821" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="828" y="69.9951">SIL - Service résultats</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="160" x="821" y="742.8906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="828" y="762.8857">SIL - Service résultats</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="1214.5" y="77.9951">SIL - Référentiel résultats</text><path d="M1285,29 C1285,19 1303,19 1303,19 C1303,19 1321,19 1321,29 L1321,55 C1321,65 1303,65 1303,65 C1303,65 1285,65 1285,55 L1285,29 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/><path d="M1285,29 C1285,39 1303,39 1303,39 C1303,39 1321,39 1321,29 " fill="none" style="stroke:#181818;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="1214.5" y="755.8857">SIL - Référentiel résultats</text><path d="M1285,769.1875 C1285,759.1875 1303,759.1875 1303,759.1875 C1303,759.1875 1321,759.1875 1321,769.1875 L1321,795.1875 C1321,805.1875 1303,805.1875 1303,805.1875 C1303,805.1875 1285,805.1875 1285,795.1875 L1285,769.1875 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/><path d="M1285,769.1875 C1285,779.1875 1303,779.1875 1303,779.1875 C1303,779.1875 1321,779.1875 1321,769.1875 " fill="none" style="stroke:#181818;stroke-width:1.5;"/><polygon fill="#181818" points="308,108.4297,318,112.4297,308,116.4297,312,112.4297" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="47" x2="314" y1="112.4297" y2="112.4297"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="54" y="107.3638">Saisir identifiants (login, mot de passe)</text><polygon fill="#181818" points="622,137.5625,632,141.5625,622,145.5625,626,141.5625" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="320" x2="628" y1="141.5625" y2="141.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="290" x="327" y="136.4966">POST /authentifierPatient(login, motDePasse)</text><polygon fill="#181818" points="889,166.6953,899,170.6953,889,174.6953,893,170.6953" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="634" x2="895" y1="170.6953" y2="170.6953"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="243" x="641" y="165.6294">vérifierIdentifiants(login, motDePasse)</text><polygon fill="#181818" points="1291,195.8281,1301,199.8281,1291,203.8281,1295,199.8281" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="901" x2="1297" y1="199.8281" y2="199.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="211" x="908" y="194.7622">SELECT patient WHERE login = ...</text><polygon fill="#181818" points="912,224.9609,902,228.9609,912,232.9609,908,228.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="906" x2="1302" y1="228.9609" y2="228.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="189" x="918" y="223.895">patientValide / patientInvalide</text><path d="M10,243.9609 L74,243.9609 L74,251.0938 L64,261.0938 L10,261.0938 L10,243.9609 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="206.7344" style="stroke:#000000;stroke-width:1.5;" width="981" x="10" y="243.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="25" y="257.0278">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="99" x="89" y="256.1714">[Patient valide]</text><polygon fill="#181818" points="645,278.2266,635,282.2266,645,286.2266,641,282.2266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="639" x2="900" y1="282.2266" y2="282.2266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="143" x="651" y="277.1606">authOK(tokenSession)</text><polygon fill="#181818" points="331,307.3594,321,311.3594,331,315.3594,327,311.3594" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="325" x2="633" y1="311.3594" y2="311.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="146" x="337" y="306.2935">200 OK (tokenSession)</text><polygon fill="#181818" points="58,336.4922,48,340.4922,58,344.4922,54,340.4922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="52" x2="319" y1="340.4922" y2="340.4922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="64" y="335.4263">Afficher espace patient</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="10" x2="991" y1="349.4922" y2="349.4922"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="111" x="15" y="359.7026">[Patient invalide]</text><polygon fill="#181818" points="645,380.4297,635,384.4297,645,388.4297,641,384.4297" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="639" x2="900" y1="384.4297" y2="384.4297"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="651" y="379.3638">authErreur</text><polygon fill="#181818" points="331,409.5625,321,413.5625,331,417.5625,327,413.5625" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="325" x2="633" y1="413.5625" y2="413.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="114" x="337" y="408.4966">401 Unauthorized</text><polygon fill="#181818" points="58,438.6953,48,442.6953,58,446.6953,54,442.6953" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="52" x2="319" y1="442.6953" y2="442.6953"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="225" x="64" y="437.6294">Message d'erreur d'authentification</text><rect fill="#EEEEEE" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="1396.5" x="0" y="478.2617"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="1396.5" y1="478.2617" y2="478.2617"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="1396.5" y1="481.2617" y2="481.2617"/><rect fill="#EEEEEE" height="23.1328" style="stroke:#000000;stroke-width:2.0;" width="213" x="591.75" y="467.6953"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="194" x="597.75" y="483.7622">Consultation des résultats</text><polygon fill="#181818" points="308,517.9609,318,521.9609,308,525.9609,312,521.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="47" x2="314" y1="521.9609" y2="521.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="237" x="54" y="516.895">Demander consultation des résultats</text><polygon fill="#181818" points="622,547.0938,632,551.0938,622,555.0938,626,551.0938" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="320" x2="628" y1="551.0938" y2="551.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="275" x="327" y="546.0278">GET /resultats?patientId=... (tokenSession)</text><polygon fill="#181818" points="889,576.2266,899,580.2266,889,584.2266,893,580.2266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="634" x2="895" y1="580.2266" y2="580.2266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="156" x="641" y="575.1606">listerResultats(patientId)</text><polygon fill="#181818" points="1291,605.3594,1301,609.3594,1291,613.3594,1295,609.3594" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="901" x2="1297" y1="609.3594" y2="609.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="378" x="908" y="604.2935">SELECT resultats WHERE patientId=... AND statut='VALIDÉ'</text><polygon fill="#181818" points="912,634.4922,902,638.4922,912,642.4922,908,638.4922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="906" x2="1302" y1="638.4922" y2="638.4922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="918" y="633.4263">listeRésultats</text><polygon fill="#181818" points="645,663.625,635,667.625,645,671.625,641,667.625" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="639" x2="900" y1="667.625" y2="667.625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="123" x="651" y="662.5591">listeRésultatsFiltrés</text><polygon fill="#181818" points="331,692.7578,321,696.7578,331,700.7578,327,696.7578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="325" x2="633" y1="696.7578" y2="696.7578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="219" x="337" y="691.6919">200 OK (JSON listeRésultatsFiltrés)</text><polygon fill="#181818" points="58,721.8906,48,725.8906,58,729.8906,54,725.8906" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="52" x2="319" y1="725.8906" y2="725.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="64" y="720.8247">Afficher les résultats</text><!--MD5=[2d3e333569425f9bbbe182b218977d5c]
+@startuml
+actor Patient
+
+participant "Navigateur" as Browser
+participant "Portail Patient" as Portail
+participant "SIL - Service résultats" as ServiceRes
+database "SIL - Référentiel résultats" as Repo
+
+' 1. Connexion du patient
+Patient -> Browser : Saisir identifiants (login, mot de passe)
+Browser -> Portail : POST /authentifierPatient(login, motDePasse)
+Portail -> ServiceRes : vérifierIdentifiants(login, motDePasse)
+ServiceRes -> Repo : SELECT patient WHERE login = ...
+Repo - -> ServiceRes : patientValide / patientInvalide
+
+alt Patient valide
+    ServiceRes - -> Portail : authOK(tokenSession)
+    Portail - -> Browser : 200 OK (tokenSession)
+    Browser -> Patient : Afficher espace patient
+else Patient invalide
+    ServiceRes - -> Portail : authErreur
+    Portail - -> Browser : 401 Unauthorized
+    Browser -> Patient : Message d'erreur d'authentification
+end
+
+== Consultation des résultats ==
+
+Patient -> Browser : Demander consultation des résultats
+Browser -> Portail : GET /resultats?patientId=... (tokenSession)
+Portail -> ServiceRes : listerResultats(patientId)
+ServiceRes -> Repo : SELECT resultats WHERE patientId=... AND statut='VALIDÉ'
+Repo - -> ServiceRes : listeRésultats
+ServiceRes - -> Portail : listeRésultatsFiltrés
+Portail - -> Browser : 200 OK (JSON listeRésultatsFiltrés)
+Browser -> Patient : Afficher les résultats
+@enduml
+
+@startuml
+actor Patient
+
+participant "Navigateur" as Browser
+participant "Portail Patient" as Portail
+participant "SIL - Service résultats" as ServiceRes
+database "SIL - Référentiel résultats" as Repo
+
+Patient -> Browser : Saisir identifiants (login, mot de passe)
+Browser -> Portail : POST /authentifierPatient(login, motDePasse)
+Portail -> ServiceRes : vérifierIdentifiants(login, motDePasse)
+ServiceRes -> Repo : SELECT patient WHERE login = ...
+Repo - -> ServiceRes : patientValide / patientInvalide
+
+alt Patient valide
+    ServiceRes - -> Portail : authOK(tokenSession)
+    Portail - -> Browser : 200 OK (tokenSession)
+    Browser -> Patient : Afficher espace patient
+else Patient invalide
+    ServiceRes - -> Portail : authErreur
+    Portail - -> Browser : 401 Unauthorized
+    Browser -> Patient : Message d'erreur d'authentification
+end
+
+== Consultation des résultats ==
+
+Patient -> Browser : Demander consultation des résultats
+Browser -> Portail : GET /resultats?patientId=... (tokenSession)
+Portail -> ServiceRes : listerResultats(patientId)
+ServiceRes -> Repo : SELECT resultats WHERE patientId=... AND statut='VALIDÉ'
+Repo - -> ServiceRes : listeRésultats
+ServiceRes - -> Portail : listeRésultatsFiltrés
+Portail - -> Browser : 200 OK (JSON listeRésultatsFiltrés)
+Browser -> Patient : Afficher les résultats
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
