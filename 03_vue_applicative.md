@@ -166,11 +166,34 @@ Enfin, de manière plus temporaire, pour pouvoir fonctionné en mode dégradé, 
 ### 3.4.1 Principes d’architecture
 *Expose les choix structurants : séparation des couches (présentation, métier, données), modularité, réutilisabilité et maintenabilité.*
 
+Les couches de l'architecture applicative sont les suivantes :
+1. Couche de présentation : Portail patient, Portail médecin, Clients web laboratoires de proximités, Application tablette
+2. Couche métier : IA d'analyse, SIL (gestion des dossiers patients, enregistrement des prescriptions, traçabilité des échantillons, validation des résultats par les biologistes, édition des comptes rendus, facturation, interfaçages avec les automates d'analyse)
+3. Couche données : Base de données principale du SIL, base de données de sauvegarde et d'archivage, bases de données locales des laboratoires de proximité et des tablettes d'intervention à domicile.
+
+Cette architecture est centralisé sur le SIL gérant la majorité des fonctionnalités métier et étant adapté à une équipe SI réduite. De plus, de part la capacité d'upscalling du cloud, le SIL pourra gérer les pics de charge lors des périodes d'activité intense et l'expention de **LabAnalyse** à l'avenir.
+
+Cette architecture permet de ne pas trop souffrir d'un disfonctionnement du SIL grâce aux bases de données locales des laboratoires de proximité et des tablettes d'intervention à domicile. De ce fait, le SI sera robuste à une perte du SIL ou de la connexion avec celui-ci dans la limite de la robustèce du cloud.
+
 ### 3.4.2 Patterns techniques
 *Précise les patterns utilisés : MVC, CQRS, Event Sourcing, API Gateway, façade de service, microservices...*
+
+L'architecture applicative repose sur les patterns suivants :
+- **MVC (Model-View-Controller)** : Utilisé dans les applications web (Portail patient, Portail médecin, Clients web laboratoires de proximités, Application tablette) pour séparer la logique de présentation, la logique métier et la gestion des données.
+- **API Gateway** : Utilisé pour centraliser les appels aux différentes API REST entre le SIL et les autres applications, assurant ainsi une gestion cohérente des accès, de la sécurité et du routage des requêtes.
 
 ### 3.4.3 Technologies et langages
 *Liste les technologies retenues (langages, frameworks, middlewares).*
 
+Les technologies et langages retenus pour l'architecture applicative sont les suivants :
+- **Langages** : Java (pour le SIL), JavaScript (pour les applications web)
+- **Frameworks** : Spring Boot (pour le SIL), React (pour les applications web)
+- **Middlewares** : API Gateway (pour la gestion des API REST entre le SIL et les autres applications)
+
 ### 3.5 Observabilité et supervision
 *Présente les solutions de journalisation, de métriques et de traçabilité applicative.*
+
+La supervision applicative repose sur les solutions suivantes :
+- **Journalisation** : Utilisation de frameworks de logging (comme Log4j pour Java) pour enregistrer les événements applicatifs, les erreurs et les transactions dans des fichiers de log centralisés.
+- **Métriques** : Mise en place de systèmes de monitoring (comme Prometheus et Grafana) pour collecter et visualiser les métriques de performance des applications, telles que les temps de réponse, les taux d'erreur et l'utilisation des ressources.
+- **Traçabilité applicative** : Utilisation de solutions de traçabilité distribuée (comme Jaeger) pour suivre les requêtes à travers les différentes couches et services de l'architecture applicative, facilitant ainsi le diagnostic des problèmes et l'optimisation des performances.
