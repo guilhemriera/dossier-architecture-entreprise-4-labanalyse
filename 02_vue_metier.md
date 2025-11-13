@@ -33,6 +33,7 @@ La solution cible supporte l'accueil et la prise de RDV, la traçabilité, le pi
 *Présente la vision globale des processus métier concernés et leurs interconnexions. Met en évidence les dépendances avec d’autres domaines fonctionnels.*
 
 Dans l'ordre chronologique du processus:
+
 1. prise de RDV et accueil
 2. prélèvements (sur site et à domicile, dont en mode dégradé)
 3. acheminement et traçabilité des échantillons
@@ -43,6 +44,7 @@ Dans l'ordre chronologique du processus:
 8. gestion qualité et conformité 
 
 Dépendances clés: 
+
 - SI médecins / hôpitaux
 - hébergeur (hébergement cloud)
 - tiers payant, mutuelles, etc.
@@ -53,17 +55,24 @@ Dépendances clés:
 
 *Décrit le fonctionnement futur (To-Be) à l’aide d'ajout des composants nouveau si il en existe sur la cartographie des processus de l'existant. Met en avant les évolutions majeures par rapport à l’existant.*
 
-  Évolutions:
-  - prélèvements: support d'un mode dégradé en offline
-  - résultats: accès via un portail en ligne
-  - analyses: automatisation via middleware et automates; auto-validation
-  - hébergement de données sur le cloud (remplace le serveur central)
+Évolutions:
+
+- prélèvements: support d'un mode dégradé en offline
+- résultats: accès via un portail en ligne
+- analyses: automatisation via middleware et automates; auto-validation
+- hébergement de données sur le cloud (remplace le serveur central)
 
 ### 2.2.3 Processus support
 
 *Inclut les processus de support nécessaires (référentiels, contrôle qualité, supervision métier, audit, reporting).*
 
-  
+- Gestion des référentiels métier
+- Pilotage qualité et conformité
+- Supervision des flux (enregistrement, transmission des échantillons, interfaces SIL <--> middleware <--> automates)
+- Reporting et aide au pilotage : tableaux de bord des opérations (volume par site, volume par examen, etc.)
+- Support utilisateurs : assistance et formation pour biologistes, techniciens, accueil, préleveurs
+- Archivage : archivage des comptes rendus et journaux selon les durées requises
+
 
 > ⚠️ **Exigence : Dans la suite du dossier d'architecture il est demandé de se concentrer surtout sur les processus en lien avec les produits de l'entreprise**
 
@@ -77,7 +86,7 @@ Dépendances clés:
 
 *Détaille les fonctions clés que le système doit offrir et les conditions de réussite associées.*
 
- - Accès distribué et résilient : accès au SIL depuis 57 sites avec performances acceptables, même en cas de latence ou charge importante. 
+- Accès distribué et résilient : accès au SIL depuis 57 sites avec performances acceptables, même en cas de latence ou charge importante. 
 - Mode dégradé : mode hors-ligne pour les applications de prélèvements avec stockage local et synchronisation automatique.
 - Interfaçage équipements médicaux : intégration bidirectionnelle avec automates multi-constructeurs, traçabilité complète et gestion des erreurs.
 
@@ -85,14 +94,16 @@ Dépendances clés:
 
 *Spécifie les objectifs de performance, disponibilité, et réactivité du système vis-à-vis des processus métiers.*
 
-  - Haute disponibilité: 99.9% (< 8h de coupure par an), bascule rapide
-  - Protection et récupération des données: données médicales protégées contre toute perte via des sauvegardes  
+- Haute disponibilité: 99.9% (< 8h de coupure par an), bascule rapide
+- Protection et récupération des données: données médicales protégées contre toute perte via des sauvegardes  
 
 ### 2.3.3 Contraintes légales et réglementaires
 
 *Liste les exigences liées à la conformité, à la protection des données (RGPD) et aux normes sectorielles.*
 
-  - hébergeur certifié HDS (Hébergeur de Données de Santé) pour le cloud
+- Cloud : hébergeur certifié HDS (Hébergeur de Données de Santé) pour le cloud
+- Protection des données personnelles (RGPD) : durées de conservation des données limitée, droits des personnes (accès, rectification, limitation), information et consentement lorsque nécessaire
+- Exigences biologie médicale : support des obligations d’accréditation de laboratoire, conservation des comptes rendus et données analytiques sur les durées applicables et capacité d’extraction pour les audits
 
 ## 2.4 Cas d’usage et scénarios
 
@@ -106,7 +117,7 @@ Dépendances clés:
 
 #### 2.4.1.1 Acteurs internes
 
-*Liste les entités internes à l’organisation : DSI, métiers, exploitation, sécurité, qualité, data. Décrit leurs responsabilités dans le cycle de vie de la solution.* 
+*Liste les entités internes à l’organisation : DSI, métiers, exploitation, sécurité, qualité, data. Décrit leurs responsabilités dans le cycle de vie de la solution.*
 
 - Direction & Métiers : biologistes, techniciens, accueil-facturation, qualité, finances
 - DSI : responsable applicatif SIL, intégrations, data, infrastructure
@@ -188,8 +199,10 @@ CU5: Facturation
 
 ## 2.5 Modèle d’information métier
 
-Formalise les objets manipulés par les processus métiers (clients, produits, commandes...) et leurs relations.
+*Formalise les objets manipulés par les processus métiers (clients, produits, commandes...) et leurs relations.*
 
 ### 2.5.1 Relations
 
-Présente les liens entre objets (cardinalités, dépendances, héritages) sous forme de diagramme conceptuel.
+*Présente les liens entre objets (cardinalités, dépendances, héritages) sous forme de diagramme conceptuel.*
+
+cf modele-info-metier.svg
