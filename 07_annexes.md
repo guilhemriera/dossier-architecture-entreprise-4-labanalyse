@@ -64,6 +64,7 @@ Documente les décisions structurantes (ADR) avec leurs justifications et impact
 | Identifiant                                                                  |              Titre               |
 | :--------------------------------------------------------------------------- | :------------------------------: |
 | [ADR-SOLUTION-01](/decisions/solution/adr-solution-01.md)                    |  Choix du modèle d'architecture  |
+| [ADR-METIER-01](./decisions/metier/mode-degrade-adr)                         |     Mode dégradé hors-ligne      |
 | [ADR-INFRASTRUCTURE-01](./decisions/Infrastructure/datacenter-adr)           | Modèle d'hébergement Datacenter  |
 | [ADR-INFRASTRUCTURE-02](./decisions/Infrastructure/stockage-principal-adr)   | Stockage des données principales |
 | [ADR-INFRASTRUCTURE-03](./decisions/Infrastructure/stockage-sauvegardes-adr) |     Stockage des sauvegardes     |
