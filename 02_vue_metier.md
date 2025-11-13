@@ -101,8 +101,9 @@ Dépendances clés:
 
 *Liste les exigences liées à la conformité, à la protection des données (RGPD) et aux normes sectorielles.*
 
-- hébergeur certifié HDS (Hébergeur de Données de Santé) pour le cloud
-- protection des données (RGPD)
+- Cloud : hébergeur certifié HDS (Hébergeur de Données de Santé) pour le cloud
+- Protection des données personnelles (RGPD) : durées de conservation des données limitée, droits des personnes (accès, rectification, limitation), information et consentement lorsque nécessaire
+- Exigences biologie médicale : support des obligations d’accréditation de laboratoire, conservation des comptes rendus et données analytiques sur les durées applicables et capacité d’extraction pour les audits
 
 ## 2.4 Cas d’usage et scénarios
 
