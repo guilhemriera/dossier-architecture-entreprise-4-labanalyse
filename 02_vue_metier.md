@@ -2,19 +2,19 @@
 
 ## 2.1 Contexte fonctionnel
 
-Présente le domaine métier concerné par le projet, les activités principales impactées et les enjeux opérationnels associés à la transformation du système d’information.
+*Présente le domaine métier concerné par le projet, les activités principales impactées et les enjeux opérationnels associés à la transformation du système d’information.*
 
 ### 2.1.1 Domaine d’activité
 
-Décrit les missions, produits ou services de l’entreprise dans le périmètre couvert, ainsi que les fonctions opérationnelles supportées par la solution.
+*Décrit les missions, produits ou services de l’entreprise dans le périmètre couvert, ainsi que les fonctions opérationnelles supportées par la solution.*
 
-Labanalyse est un réseau de laboratoires d'analyses médicales réalisant à la fois des analyses de routine et spécialisées, que ce soit en biochimie immunologie, bactériologie ou biologie moléculaire. 
+**LabAnalyse** est un réseau de laboratoires d'analyses médicales réalisant à la fois des analyses de routine et spécialisées, que ce soit en biochimie immunologie, bactériologie ou biologie moléculaire. 
 
 La solution cible supporte l'accueil et la prise de RDV, la traçabilité, le pilotage et validation des analyses, et l'envoi sécurisé des résultats. 
 
 ### 2.1.2 Objectifs opérationnels
 
-Explique les gains attendus dans les processus métiers (simplification, automatisation, rapidité, traçabilité, satisfaction client, conformité réglementaire).
+*Explique les gains attendus dans les processus métiers (simplification, automatisation, rapidité, traçabilité, satisfaction client, conformité réglementaire).*
 
 - réduire les délais de rendu
 - accroître la remise des résultats en dématérialisé
@@ -24,13 +24,13 @@ Explique les gains attendus dans les processus métiers (simplification, automat
 
 ## 2.2 Processus métier
 
-Expose les processus cibles que la solution doit supporter, sous forme de flux métier, d’activités et d’interactions entre acteurs.
+*Expose les processus cibles que la solution doit supporter, sous forme de flux métier, d’activités et d’interactions entre acteurs.*
 
 
 
 ### 2.2.1 Cartographie des processus
 
-Présente la vision globale des processus métier concernés et leurs interconnexions. Met en évidence les dépendances avec d’autres domaines fonctionnels.
+*Présente la vision globale des processus métier concernés et leurs interconnexions. Met en évidence les dépendances avec d’autres domaines fonctionnels.*
 
 Dans l'ordre chronologique du processus:
 1. prise de RDV et accueil
@@ -51,7 +51,7 @@ Dépendances clés:
 
 ### 2.2.2 Processus cibles
 
-Décrit le fonctionnement futur (To-Be) à l’aide d'ajout des composants nouveau si il en existe sur la cartographie des processus de l'existant. Met en avant les évolutions majeures par rapport à l’existant.
+*Décrit le fonctionnement futur (To-Be) à l’aide d'ajout des composants nouveau si il en existe sur la cartographie des processus de l'existant. Met en avant les évolutions majeures par rapport à l’existant.*
 
   Évolutions:
   - prélèvements: support d'un mode dégradé en offline
@@ -61,7 +61,7 @@ Décrit le fonctionnement futur (To-Be) à l’aide d'ajout des composants nouve
 
 ### 2.2.3 Processus support
 
-Inclut les processus de support nécessaires (référentiels, contrôle qualité, supervision métier, audit, reporting).
+*Inclut les processus de support nécessaires (référentiels, contrôle qualité, supervision métier, audit, reporting).*
 
   
 
@@ -71,11 +71,11 @@ Inclut les processus de support nécessaires (référentiels, contrôle qualité
 
 ## 2.3 Exigences fonctionnelles
 
-Regroupe l’ensemble des besoins fonctionnels et contraintes métier à satisfaire par la solution.
+*Regroupe l’ensemble des besoins fonctionnels et contraintes métier à satisfaire par la solution.*
 
 ### 2.3.1 Exigences principales
 
-Détaille les fonctions clés que le système doit offrir et les conditions de réussite associées.
+*Détaille les fonctions clés que le système doit offrir et les conditions de réussite associées.*
 
  - Accès distribué et résilient : accès au SIL depuis 57 sites avec performances acceptables, même en cas de latence ou charge importante. 
 - Mode dégradé : mode hors-ligne pour les applications de prélèvements avec stockage local et synchronisation automatique.
@@ -83,37 +83,37 @@ Détaille les fonctions clés que le système doit offrir et les conditions de r
 
 ### 2.3.2 Exigences de qualité de service
 
-Spécifie les objectifs de performance, disponibilité, et réactivité du système vis-à-vis des processus métiers.
+*Spécifie les objectifs de performance, disponibilité, et réactivité du système vis-à-vis des processus métiers.*
 
   - Haute disponibilité: 99.9% (< 8h de coupure par an), bascule rapide
   - Protection et récupération des données: données médicales protégées contre toute perte via des sauvegardes  
 
 ### 2.3.3 Contraintes légales et réglementaires
 
-Liste les exigences liées à la conformité, à la protection des données (RGPD) et aux normes sectorielles.
+*Liste les exigences liées à la conformité, à la protection des données (RGPD) et aux normes sectorielles.*
 
   - hébergeur certifié HDS (Hébergeur de Données de Santé) pour le cloud
 
 ## 2.4 Cas d’usage et scénarios
 
-Présente les interactions typiques entre utilisateurs et système, sous forme de cas d’usage illustrant les principales fonctionnalités.
+*Présente les interactions typiques entre utilisateurs et système, sous forme de cas d’usage illustrant les principales fonctionnalités.*
 
   
 ### 2.4.1 Parties prenantes
 
-Ce chapitre identifie les acteurs impliqués dans la conception, la validation et la maintenance de la solution, ainsi que la structure de gouvernance associée.
+*Ce chapitre identifie les acteurs impliqués dans la conception, la validation et la maintenance de la solution, ainsi que la structure de gouvernance associée.*
 
 
 #### 2.4.1.1 Acteurs internes
 
-Liste les entités internes à l’organisation : DSI, métiers, exploitation, sécurité, qualité, data. Décrit leurs responsabilités dans le cycle de vie de la solution.
+*Liste les entités internes à l’organisation : DSI, métiers, exploitation, sécurité, qualité, data. Décrit leurs responsabilités dans le cycle de vie de la solution.* 
 
 - Direction & Métiers : biologistes, techniciens, accueil-facturation, qualité, finances
 - DSI : responsable applicatif SIL, intégrations, data, infrastructure
 
 #### 2.4.1.2 Acteurs externes
 
-Identifie les fournisseurs, éditeurs, intégrateurs et hébergeurs. Précise leurs rôles et leurs interactions avec les équipes internes.
+*Identifie les fournisseurs, éditeurs, intégrateurs et hébergeurs. Précise leurs rôles et leurs interactions avec les équipes internes.*
 
 - Éditeur SIL et middlewares automates : intégration bi-directionnelle, règles d'autovalidation des résultats 
 - Hébergeur certifié HDS : stockage cloud
@@ -123,7 +123,7 @@ Identifie les fournisseurs, éditeurs, intégrateurs et hébergeurs. Précise le
 
 ### 2.4.2 Cas d’usage majeurs
 
-Décrit les scénarios clés avec leurs étapes, conditions de déclenchement, flux de données et résultats attendus.
+*Décrit les scénarios clés avec leurs étapes, conditions de déclenchement, flux de données et résultats attendus.*
 
 CU1 : Prélèvement à domicile
 - Déclencheur : tournée planifiée
@@ -177,7 +177,7 @@ CU5: Facturation
 
 ### 2.4.3 Exceptions et règles métier
 
-Liste les cas particuliers, exceptions ou règles spécifiques à appliquer pour garantir la cohérence et la conformité métier.
+*Liste les cas particuliers, exceptions ou règles spécifiques à appliquer pour garantir la cohérence et la conformité métier.*
 
 - Mode dégradé:
 	- entrée dans le mode : déclenchée automatiquement si perte de réseau de plus de 30s
