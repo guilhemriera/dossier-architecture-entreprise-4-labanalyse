@@ -37,6 +37,7 @@ Fournit les définitions des termes, acronymes et abréviations utilisés dans l
 | ACL    |            Access Control List            |                                                                                                                                                                          |
 | SD-WAN |    Software-Defined Wide Area Network     |                                                                                                                                                                          |
 | DAS    |          Direct-Attached Storage          |                                                                                                                                                                          |
+| SAN    |           Storage Area Network            |                                                                                                                                                                          |
 
 ### 7.1.4 Sources
 
@@ -58,7 +59,10 @@ Liste les documents de référence majeurs utilisés : normes, politiques intern
 ## 7.4 Liste des décisions d’architecture
 Documente les décisions structurantes (ADR) avec leurs justifications et impacts attendus. Faire ici le lien vers les ADR du dépôt
 
-| Identifiant | Titre |
-|:-------- |:--------:|
-| [ADR-SOLUTION-01](/decisions/solution/adr-solution-01.md)    | Choix du modèle d'architecture  |
-| [ADR-INFRASTRUCTURE-01](/decisions/context/adr-infrastructure-01.md)    | Modèle d'hébergement Datacenter  |
+| Identifiant                                                                  |              Titre               |
+| :--------------------------------------------------------------------------- | :------------------------------: |
+| [ADR-SOLUTION-01](/decisions/solution/adr-solution-01.md)                    |  Choix du modèle d'architecture  |
+| [ADR-INFRASTRUCTURE-01](./decisions/Infrastructure/datacenter-adr)           | Modèle d'hébergement Datacenter  |
+| [ADR-INFRASTRUCTURE-02](./decisions/Infrastructure/stockage-principal-adr)   | Stockage des données principales |
+| [ADR-INFRASTRUCTURE-03](./decisions/Infrastructure/stockage-sauvegardes-adr) |     Stockage des sauvegardes     |
+| [ADR-INFRASTRUCTURE-04](./decisions/Infrastructure/stockage-principal-adr)]  |      Stockage des archives       |
