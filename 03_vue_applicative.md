@@ -168,8 +168,11 @@ Enfin, de manière plus temporaire, pour pouvoir fonctionné en mode dégradé, 
 
 Les couches de l'architecture applicative sont les suivantes :
 1. Couche de présentation : Portail patient, Portail médecin, Clients web laboratoires de proximités, Application tablette
-2. Couche métier : IA d'analyse, SIL (gestion des dossiers patients, enregistrement des prescriptions, traçabilité des échantillons, validation des résultats par les biologistes, édition des comptes rendus, facturation, interfaçages avec les automates d'analyse)
-3. Couche données : Base de données principale du SIL, base de données de sauvegarde et d'archivage, bases de données locales des laboratoires de proximité et des tablettes d'intervention à domicile.
+2. Couche d'intégration : API REST entre le SIL et les autres applications
+3. Couche métier : IA d'analyse, SIL (gestion des dossiers patients, enregistrement des prescriptions, traçabilité des échantillons, validation des résultats par les biologistes, édition des comptes rendus, facturation, interfaçages avec les automates d'analyse)
+4. Couche données : Base de données principale du SIL, base de données de sauvegarde et d'archivage, bases de données locales des laboratoires de proximité et des tablettes d'intervention à domicile.
+
+![Schéma d'architecture applicative de la solution](diagrammes\finaux\schema_architecture_applicatif.svg)
 
 Cette architecture est centralisé sur le SIL gérant la majorité des fonctionnalités métier et étant adapté à une équipe SI réduite. De plus, de part la capacité d'upscalling du cloud, le SIL pourra gérer les pics de charge lors des périodes d'activité intense et l'expention de **LabAnalyse** à l'avenir.
 
