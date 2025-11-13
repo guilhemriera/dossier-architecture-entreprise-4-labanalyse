@@ -26,6 +26,8 @@ Les progiciels et toutes les applications du SI seront hébergés sur le cloud S
 
 Les laboratoires de proximité (bords) utiliseront une petite infrastructure on-premise pour gérer les opérations quotidiennes qui seront synchronisées de manière asynchrone avec les bases de données centrales du cloud privé.
 
+Les services d'intelligence artificielle devront être hébergées  dans un cloud spécialisé pour avoir les performances et les capacités nécessaires.
+
 ### 4.1.3 Réseaux et interconnexions
 
 Le laboratoire central communiquera par une connexion internet sur fibre avec les serveurs du cloud privé. De même, les laboratoires de proximité accéderont aux données patients et aux prescriptions directement avec le cloud privé, sans passer par le laboratoire central.
