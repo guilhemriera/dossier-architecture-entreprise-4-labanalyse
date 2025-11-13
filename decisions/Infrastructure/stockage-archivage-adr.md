@@ -1,11 +1,8 @@
 # Archivage
 
 ## Statut
-**Ce que doit contenir :**  
-Le statut actuel de la décision (par exemple : Proposée, Acceptée, Rejetée, Supplantée).
 
 Proposée
-
 ## Contexte
 Un système d'archivage doit être mis en place pour avoir accès aux données inactives à long terme pour des raisons juridiques ou analytiques.
 
