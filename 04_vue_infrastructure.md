@@ -30,7 +30,7 @@ Les laboratoires de proximité (bords) utiliseront une petite infrastructure on-
 
 Le laboratoire central communiquera par une connexion internet sur fibre avec les serveurs du cloud privé. De même, les laboratoires de proximité accéderont aux données patients et aux prescriptions directement avec le cloud privé, sans passer par le laboratoire central.
 
-Chaque laboratoire disposera d'un réseau VLAN dédier. Un SD-WAN est formé par la connexion de chaque laboratoire avec le cloud privé. Les laboratoires de proximité ne devraient pas être en mesure de communiquer directement les uns avec les autres.
+Chaque laboratoire disposera d'un réseau VLAN dédié. Un SD-WAN est formé par la connexion de chaque laboratoire avec le cloud privé. Les laboratoires de proximité ne devraient pas être en mesure de communiquer directement les uns avec les autres.
 
 De même, les tablettes mobiles peuvent communiquer uniquement par Internet au travers d'un VPN avec le laboratoire de proximité auquel il est attaché.
 
@@ -46,7 +46,7 @@ Pour éviter une sous-utilisation des ressources, les systèmes d'exploitation s
 
 ### 4.2.2 Stockage et sauvegarde
 
-Direct Attached Stockage dans chacun des laboratoires de proximité pour assurer un accès rapide aux données locales sans avoir un CAPEX trop élevé.  Les données situées dans le cloud privé seront accessibles grâce au réseau datacenter.
+DAS dans chacun des laboratoires de proximité pour assurer un accès rapide aux données locales sans avoir un CAPEX trop élevé.  Les données situées dans le cloud privé seront accessibles grâce au réseau datacenter.
 
 Chaque laboratoire dispose donc d'une base de données relationnelle utilisée pour la prise de rendez-vous et la gestion des clients dudit laboratoire. Ces bases de données sont synchronisées quotidiennement avec les bases de données du cloud privé.
 
@@ -68,9 +68,11 @@ De même, les laboratoires de proximité seront équipés d'une base de données
 
 Une bascule réseau automatique pour basculer sur de la 4G-5G en cas de problèmes
 
+Load balancers pour utiliser le système de redondance en cas de panne d'un des équipements.
+
 ### 4.3.2 Plan de reprise d’activité (PRA)
 
-Stratégie actif/passif avec une replication synchrone pour les données critiques mais asynchrone de manière générale
+Stratégie actif/passif avec une réplication synchrone pour les données critiques mais asynchrone de manière générale
 
 ### 4.3.3 Niveaux de service
 
