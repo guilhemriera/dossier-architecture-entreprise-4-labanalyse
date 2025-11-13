@@ -155,7 +155,8 @@ Dans ce cadre, l'ESB a pour rôle entre le SIL et les autres applications (porta
 ### 3.3.3 Gestion de la donnée
 *Décrit les stratégies de partage, duplication et gouvernance de la donnée. Proproser un schema de modèle de données "simplifié". Pour les objets importants de la solution applicative, identifier les systèmes contenant ces données en référence.*
 
-La stragégie de partage repose sur une structure centralisée autour de la basse donnée princiale du SIL. A cette base de données s'ajoute une base de données de sauvegarde et d'archivage. Enfin, de manière plus temporaire, pour pouvoir fonctionné en mode dégradé, chaque laboratoire de proximité et chaque tablette d'intervention à domicile dispose d'une base de données locale qui est synchronisée quotidiennement avec la base de données principale du SIL. Celle-ci ne stocke que les rendez-vous et les dossiers patients sur 24h.
+La stragégie de partage repose sur une structure centralisée autour de la basse donnée princiale du SIL. A cette base de données s'ajoute une base de données de sauvegarde et d'archivage. 
+Enfin, de manière plus temporaire, pour pouvoir fonctionné en mode dégradé, chaque laboratoire de proximité et chaque tablette d'intervention à domicile dispose d'une base de données locale qui est synchronisée 3 fois par jours avec la base de données principale du SIL. Celle-ci ne stocke que les rendez-vous et les dossiers patients sur 16h (de manière à suporté une indisponibilité avec le SIL de 8h) (à l'échel du site ou de la tourné de l'infermier).
 
 ## 3.4 Architecture applicative
 *Définit les principes d’organisation des applications : couches, composants, frameworks, et interactions.*
